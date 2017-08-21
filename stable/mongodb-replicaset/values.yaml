@@ -2,6 +2,10 @@ replicaSet: rs0
 replicas: 3
 port: 27017
 
+setup:
+  replicas: 3
+
+
 auth:
   enabled: false
   # adminUser:
